@@ -2,10 +2,10 @@
 
 namespace Adiazm\Comments\Concerns;
 
+use Adiazm\Comments\Contracts\IsComment;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Facades\Auth;
-use Adiazm\Comments\Contracts\IsComment;
 
 /**
  * @mixin \Illuminate\Database\Eloquent\Model
