@@ -2,9 +2,9 @@
 
 namespace Admsys\LaravelComments\Tests;
 
+use Admsys\LaravelComments\LaravelCommentsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Admsys\LaravelComments\LaravelCommentsServiceProvider;
 
 class TestCase extends Orchestra
 {
