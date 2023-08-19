@@ -4,6 +4,7 @@ namespace Admsys\Comments;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
+
 // use Admsys\Comments\Commands\CommentsCommand;
 
 class CommentsServiceProvider extends PackageServiceProvider
@@ -19,8 +20,7 @@ class CommentsServiceProvider extends PackageServiceProvider
             ->name('laravel-comments')
             ->hasConfigFile()
             // ->hasViews()
-            ->hasMigration('create_laravel-comments_table')
-            // ->hasCommand(CommentsCommand::class)
-            ;
+            ->hasMigration('create_laravel-comments_table');
+        // ->hasCommand(CommentsCommand::class)
     }
 }

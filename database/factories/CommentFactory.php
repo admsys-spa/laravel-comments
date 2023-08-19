@@ -2,8 +2,8 @@
 
 namespace Admsys\LaravelComments\Database\Factories;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Admsys\Comments\Models\Comment;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
 class CommentFactory extends Factory
 {
