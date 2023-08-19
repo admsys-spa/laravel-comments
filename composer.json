@@ -9,7 +9,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Alexander Díaz",
+            "name": "Alexander Díaz Márquez",
             "email": "alex@admsys.cl",
             "homepage": "https://admsys.cl",
             "role": "Developer"
@@ -69,6 +69,6 @@
             }
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
