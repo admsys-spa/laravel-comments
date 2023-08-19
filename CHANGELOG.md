@@ -1,3 +1,3 @@
-# Changelog
+## 1.0.0 - 2023-08-19
 
-All notable changes to `laravel-comments` will be documented in this file.
+- Initial release
