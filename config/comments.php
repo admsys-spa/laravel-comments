@@ -1,7 +1,7 @@
 <?php
 
-// config for Admsys/LaravelComments
+// config for Adiazm/Comments
 return [
-    'model' => \Admsys\Comments\Models\Comment::class,
+    'model' => \Adiazm\Comments\Models\Comment::class,
     'user' => \App\Models\User::class,
 ];

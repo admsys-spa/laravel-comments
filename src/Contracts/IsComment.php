@@ -1,6 +1,6 @@
 <?php
 
-namespace Admsys\Comments\Contracts;
+namespace Adiazm\Comments\Contracts;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
