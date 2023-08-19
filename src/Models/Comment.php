@@ -1,8 +1,8 @@
 <?php
 
-namespace Adiazm\Comments\Models;
+namespace Admsys\Comments\Models;
 
-use Adiazm\Comments\Contracts\IsComment;
+use Admsys\Comments\Contracts\IsComment;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

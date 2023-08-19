@@ -1,9 +1,9 @@
 # Sistema de comentarios hecho simple.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/adiazm/laravel-comments.svg?style=flat-square)](https://packagist.org/packages/adiazm/laravel-comments)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/adiazm/laravel-comments/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/adiazm/laravel-comments/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/adiazm/laravel-comments/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/adiazm/laravel-comments/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/adiazm/laravel-comments.svg?style=flat-square)](https://packagist.org/packages/adiazm/laravel-comments)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/admsys/laravel-comments.svg?style=flat-square)](https://packagist.org/packages/admsys/laravel-comments)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/admsys/laravel-comments/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/admsys/laravel-comments/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/admsys/laravel-comments/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/admsys/laravel-comments/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/admsys/laravel-comments.svg?style=flat-square)](https://packagist.org/packages/admsys/laravel-comments)
 
 Este paquete proporciona un sistema de comentarios simple para aplicaciones Laravel.
 
@@ -12,7 +12,7 @@ Este paquete proporciona un sistema de comentarios simple para aplicaciones Lara
 You can install the package via composer:
 
 ```bash
-composer require adiazm/laravel-comments
+composer require admsys/laravel-comments
 ```
 
 You can publish and run the migrations with:
@@ -33,16 +33,16 @@ This is the contents of the published config file:
 ```php
 return [
 
-    'model' => \Adiazm\Comments\Models\Comment::class,
+    'model' => \Admsys\Comments\Models\Comment::class,
     'user' => \App\Models\User::class,
 
 ];
 ```
 
 ## Usage
-Start by using the `Adiazm\Comments\Concerns\HasComments` trait on your model.
+Start by using the `Admsys\Comments\Concerns\HasComments` trait on your model.
 ```php
-use Adiazm\Comments\Concerns\HasComments;
+use Admsys\Comments\Concerns\HasComments;
 
 class Post extends Model
 {
@@ -90,7 +90,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Alexander Díaz](https://github.com/adiazm)
+- [Alexander Díaz](https://github.com/admsys)
 - [All Contributors](../../contributors)
 
 ## License

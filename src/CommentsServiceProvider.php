@@ -1,11 +1,11 @@
 <?php
 
-namespace Adiazm\Comments;
+namespace Admsys\Comments;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-// use Adiazm\Comments\Commands\CommentsCommand;
+// use Admsys\Comments\Commands\CommentsCommand;
 
 class CommentsServiceProvider extends PackageServiceProvider
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Adiazm\Comments\Concerns;
+namespace Admsys\Comments\Concerns;
 
-use Adiazm\Comments\Contracts\IsComment;
+use Admsys\Comments\Contracts\IsComment;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Facades\Auth;

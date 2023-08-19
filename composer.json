@@ -1,11 +1,11 @@
 {
-    "name": "adiazm/laravel-comments",
+    "name": "admsys/laravel-comments",
     "description": "Sistema de comentarios simple para aplicaciones Laravel",
     "keywords": [
         "laravel",
         "laravel-comments"
     ],
-    "homepage": "https://github.com/adiazm/laravel-comments",
+    "homepage": "https://github.com/admsys/laravel-comments",
     "license": "MIT",
     "authors": [
         {
@@ -36,14 +36,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Adiazm\\Comments\\": "src",
-            "Adiazm\\Comments\\Database\\Migrations\\": "database/migrations",
-            "Adiazm\\Comments\\Database\\Factories\\": "database/factories"
+            "Admsys\\Comments\\": "src",
+            "Admsys\\Comments\\Database\\Migrations\\": "database/migrations",
+            "Admsys\\Comments\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Adiazm\\Comments\\Tests\\": "tests"
+            "Admsys\\Comments\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -62,10 +62,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Adiazm\\Comments\\CommentsServiceProvider"
+                "Admsys\\Comments\\CommentsServiceProvider"
             ],
             "aliases": {
-                "Comments": "Adiazm\\Comments\\Facades\\Comments"
+                "Comments": "Admsys\\Comments\\Facades\\Comments"
             }
         }
     },
