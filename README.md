@@ -37,6 +37,7 @@ return [
     'user' => \App\Models\User::class,
 
 ];
+```
 
 Optionally, you can publish the views using
 
