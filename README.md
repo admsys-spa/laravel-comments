@@ -18,7 +18,7 @@ composer require adiazm/laravel-comments
 You can publish and run the migrations with:
 
 ```bash
-php artisan vendor:publish --tag="laravel-comments-migrations"
+php artisan vendor:publish --tag="comments-migrations"
 php artisan migrate
 ```
 
@@ -37,12 +37,6 @@ return [
     'user' => \App\Models\User::class,
 
 ];
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="laravel-comments-views"
 ```
 
 ## Usage
