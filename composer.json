@@ -10,7 +10,7 @@
     "authors": [
         {
             "name": "Alexander Díaz",
-            "email": "alex@admsys.cl",
+            "email": "alex@Adiazm.cl",
             "role": "Developer"
         }
     ],
@@ -22,6 +22,7 @@
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.8",
+        "laravel/pint": "^1.11",
         "nunomaduro/collision": "^6.0",
         "nunomaduro/larastan": "^2.0.1",
         "orchestra/testbench": "^7.0|^8.0",
@@ -34,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Admsys\\Comments\\": "src",
-            "Admsys\\Comments\\Database\\Factories\\": "database/factories"
+            "Adiazm\\Comments\\": "src",
+            "Adiazm\\Comments\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Admsys\\Comments\\Tests\\": "tests"
+            "Adiazm\\Comments\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -59,10 +60,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Admsys\\Comments\\CommentsServiceProvider"
+                "Adiazm\\Comments\\CommentsServiceProvider"
             ],
             "aliases": {
-                "Comments": "Admsys\\Comments\\Facades\\Comments"
+                "Comments": "Adiazm\\Comments\\Facades\\Comments"
             }
         }
     },
