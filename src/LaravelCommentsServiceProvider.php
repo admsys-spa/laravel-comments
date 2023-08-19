@@ -2,9 +2,9 @@
 
 namespace Admsys\LaravelComments;
 
+use Admsys\LaravelComments\Commands\LaravelCommentsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Admsys\LaravelComments\Commands\LaravelCommentsCommand;
 
 class LaravelCommentsServiceProvider extends PackageServiceProvider
 {
