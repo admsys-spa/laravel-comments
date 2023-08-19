@@ -32,8 +32,11 @@ This is the contents of the published config file:
 
 ```php
 return [
+
+    'model' => \Adiazm\Comments\Models\Comment::class,
+    'user' => \App\Models\User::class,
+
 ];
-```
 
 Optionally, you can publish the views using
 
