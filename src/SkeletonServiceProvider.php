@@ -1,12 +1,12 @@
 <?php
 
-namespace Admsys\LaravelComments;
+namespace VendorName\Skeleton;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Admsys\LaravelComments\Commands\LaravelCommentsCommand;
+use VendorName\Skeleton\Commands\SkeletonCommand;
 
-class LaravelCommentsServiceProvider extends PackageServiceProvider
+class SkeletonServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class LaravelCommentsServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('laravel-comments')
+            ->name('skeleton')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_laravel-comments_table')
-            ->hasCommand(LaravelCommentsCommand::class);
+            ->hasMigration('create_skeleton_table')
+            ->hasCommand(SkeletonCommand::class);
     }
 }
