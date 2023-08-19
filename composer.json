@@ -36,6 +36,7 @@
     "autoload": {
         "psr-4": {
             "Adiazm\\Comments\\": "src",
+            "Adiazm\\Comments\\Database\\Migrations\\": "database/migrations",
             "Adiazm\\Comments\\Database\\Factories\\": "database/factories"
         }
     },
