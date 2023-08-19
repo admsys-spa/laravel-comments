@@ -16,6 +16,7 @@ class Comment extends Model implements IsComment
     use SoftDeletes;
 
     protected $fillable = [];
+
     protected $guarded = [];
 
     public function commentable(): MorphTo
