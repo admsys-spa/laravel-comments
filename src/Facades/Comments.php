@@ -1,16 +1,16 @@
 <?php
 
-namespace Admsys\LaravelComments\Facades;
+namespace Admsys\Comments\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Admsys\LaravelComments\LaravelComments
+ * @see \Admsys\Comments\Comments
  */
-class LaravelComments extends Facade
+class Comments extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Admsys\LaravelComments\LaravelComments::class;
+        return \Admsys\Comments\Comments::class;
     }
 }
