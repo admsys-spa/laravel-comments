@@ -37,9 +37,9 @@
     "autoload": {
         "psr-4": {
             "Admsys\\Comments\\": "src",
-            "Admsys\\Comments\\Database\\Migrations\\": "database/migrations",
-            "Admsys\\Comments\\Database\\Factories\\": "database/factories",
-            "Admsys\\Comments\\Database\\Seeders\\": "database/seeders"
+            "Admsys\\Comments\\Database\\Migrations\\": "database/migrations/",
+            "Admsys\\Comments\\Database\\Factories\\": "database/factories/",
+            "Admsys\\Comments\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {
