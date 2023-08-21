@@ -1,11 +1,13 @@
 <?php
 
 namespace Admsys\Comments\Database\Factories;
+
+// use Admsys\Comments\Models\Comment;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class CommentFactory extends Factory
 {
-    //protected $model = Comment::class;
+    protected $model = \Admsys\Comments\Models\Comment::class;
     /**
      * Define the model's default state.
      *
@@ -14,7 +16,7 @@ class CommentFactory extends Factory
     public function definition()
     {
         return [
-            'content' => fake()->words(rand(3, 10), asText: true),
+            'content' => fake()->words(rand(3, 10), asText: true)
         ];
     }
 }
