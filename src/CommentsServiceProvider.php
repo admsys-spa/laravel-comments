@@ -10,7 +10,7 @@ class CommentsServiceProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('laravel-comments')
+            ->name('comments')
             ->hasConfigFile()
             // ->hasViews()
             ->hasMigration('create_comments_table');
