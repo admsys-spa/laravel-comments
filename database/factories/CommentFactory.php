@@ -9,7 +9,7 @@ class CommentFactory extends Factory
 {
     protected $model = Comment::class;
 
-    public function definition(): array
+    public function definition()
     {
         return [
             'content' => fake()->words(rand(3, 10), asText: true),
