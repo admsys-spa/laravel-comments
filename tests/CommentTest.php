@@ -1,13 +1,12 @@
 <?php
 
+use Admsys\Comments\Concerns\HasComments;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Schema;
 
 use function Pest\Laravel\assertDatabaseHas;
-
-use Admsys\Comments\Concerns\HasComments;
 
 class Post extends Model
 {

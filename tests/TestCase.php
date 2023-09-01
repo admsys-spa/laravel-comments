@@ -2,9 +2,9 @@
 
 namespace Admsys\Comments\Tests;
 
+use Admsys\Comments\CommentsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Admsys\Comments\CommentsServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -28,7 +28,7 @@ class TestCase extends Orchestra
     {
         config()->set('database.default', 'testing');
 
-        $migration = require __DIR__ . '/../database/migrations/create_comments_table.php';
+        $migration = require __DIR__.'/../database/migrations/create_comments_table.php';
         $migration->up();
     }
 
