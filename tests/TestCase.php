@@ -28,7 +28,7 @@ class TestCase extends Orchestra
     {
         config()->set('database.default', 'testing');
 
-        $migration = require __DIR__.'/../database/migrations/create_comments_table.php';
+        $migration = require __DIR__.'/../database/migrations/create_comments_table.php.stub';
         $migration->up();
     }
 

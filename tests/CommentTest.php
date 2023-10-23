@@ -22,7 +22,7 @@ class Post extends Model
     }
 }
 
-it('can be created', function () {
+it('se puede crear', function () {
     $post = Post::create();
     $comment = $post->comment('Hello, world!');
 
@@ -32,7 +32,7 @@ it('can be created', function () {
     ]);
 });
 
-it('can belong to a user', function () {
+it('puede pertenecer a un usuario', function () {
     login();
 
     $post = Post::create();
@@ -45,7 +45,7 @@ it('can belong to a user', function () {
     ]);
 });
 
-it('can belong to another comment', function () {
+it('puede pertenecer a otro comentario', function () {
     $post = Post::create();
     $parent = $post->comment('Hello, world!');
     $child = $post->comment('Thanks!', parent: $parent);

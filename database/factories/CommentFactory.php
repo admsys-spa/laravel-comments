@@ -14,10 +14,10 @@ class CommentFactory extends Factory
      *
      * @return array<string, mixed>
      */
-    public function definition()
+    public function definition(): array
     {
         return [
-            'content' => fake()->words(rand(3, 10), asText: true),
+            'content' => fake()->text(30),
         ];
     }
 }

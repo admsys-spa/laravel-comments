@@ -26,4 +26,8 @@ trait HasComments
             'parent_id' => $parent?->getKey(),
         ]);
     }
+
+    public function rating(): float {
+        return $this->comments()->avg('rating');
+    }
 }
